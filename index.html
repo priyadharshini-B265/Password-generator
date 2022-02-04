@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Password generator</title>
+</head>
+<body>
+    <section id="container">
+        <div class = "heading">
+            <p>Password Generator</p>
+            </div>
+            <div  class="box">
+                <label for="Password">Password<input type="text" class="text" id="password" placeholder="Generated password"></label>
+            </div>
+            <div id="input-container">
+            
+            <div  class="box" id="pass">
+                <label for="number">Password Length<input type="number" class="text" id="count" placeholder="Number"></label>
+            </div>
+            <div id="upper-case" class="box">
+            <label for="upper-case">Upper Case <input type="checkbox" class="check" name="upper" id="upper" /></label>
+        </div>
+        <div id="lower-case" class="box">
+            <label for="lower-case">Lower Case <input type="checkbox" class="check" name="lower" id="lower" /></label>
+        </div>
+        <div class="box">
+            <label for="number">Number <input type="checkbox" name="number" class="check" id="number" /></label>
+        </div>
+        <div id="special-char" class="box">
+            <label for="special-char">Special Character<input type="checkbox" class="check" name="special" id="special" /></label>
+        </div>
+    </div>
+    <div id="submit-btn" class="btn">
+        <input type="button" id="submit" value="Generate Password" /> 
+    </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>

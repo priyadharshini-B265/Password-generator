@@ -1,0 +1,98 @@
+body {
+     margin:0;
+    font-family: 'Luxurious Roman', cursive;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#container{
+    background-color: aqua;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 75%;
+   gap: 8px;
+   padding: 1px;
+   border-radius: 30px;
+   border: 10px solid rgb(3, 192, 192);
+}
+
+.heading {
+    text-align: center;
+    font-size: 32px;
+    background-color: blueviolet;
+    padding: 2px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 50px;
+    color: aliceblue;
+    margin-top: 5px;
+    
+}
+
+#password {
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 24px;
+    margin-left: 100px;
+    font-family: 'Luxurious Roman', cursive;
+   
+}
+
+#count {
+    padding: 8px;
+    border-radius: 10px;
+    width: 83px;
+    font-size: 18px;
+    margin-left: 150px;
+    font-family: 'Luxurious Roman', cursive;
+}
+.box{
+    margin: 15px;
+    border: 1px solid black; 
+    padding: 10px;
+    font-size: large;
+    background-color: rgb(240, 79, 61);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+  
+}
+
+
+
+#input-container {
+    background-color: lightcoral;
+    padding: 20px;
+    width: 50%;
+    border-radius: 30px;
+    border: 7px solid rgb(240, 79, 61);
+    box-shadow: 5px 5px 10px rgb(235, 109, 95);
+    
+}
+.check {
+   margin-left: 390px;
+   margin-right: 10px;
+}
+
+
+#number {
+    margin-left: 415px;
+}
+#special {
+   margin-left: 491px;
+}
+
+#submit {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    width: 130%;
+    font-family: 'Luxurious Roman', cursive;
+    color:white;
+    margin: 5px;
+   
+}
